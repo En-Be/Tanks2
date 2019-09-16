@@ -19,3 +19,20 @@
     - White for messages
     - Respective player colour for names
     - Slight brown shadow under all text
+- Touched a .gitignore
+
+## Session 02
+
+**Mon Sep 16 17:31:52 - Mon Sep 16 18:19:10**
+
+**To do**
+- Create a canvas in camera overlay and find out how to mirror it's elements
+
+**Done**
+- Googled UGUI to make sure it the default UI system in Unity, I think it is.
+- Had a look for existing solutions, not fruitfull
+- Looking through current files, cannot find TankManager use in scene
+- Taking the file out breaks the game, so it is used somehow.
+- Added a HUD canvas set to resize with screen
+- Added flat images anchored in each corner, 20px away
+- Thinking of ways to change HUD colours based on tanks. Add a HUDManager?
