@@ -2,7 +2,9 @@
 
 # Technical Art
 
-The original document detailing the exercise is included [here](./MediatonicTAExercise).
+The original document detailing this exercise is included [here](./MediatonicTAExercise).
+
+**Made with Unity version 2019.2.0f1**
 
 ## Essential Information
 ● In an alternate dimension, Mediatonic Ltd. are working on a super awesome game called Tanks2! It has been adapted from a game (not by Mediatonic) originally presented as part of a tutorial at Unity Boston 2015.
@@ -15,7 +17,7 @@ Import the original Tanks project from the Unity Asset Store into a blank projec
 We would like you to code up the request below and add it to the project. The end result will be an
 amended project which we can run ourselves. The evaluation and submission criteria are on the last
 page.
-Request
+## Request
 Create a HUD (head up display) in UGUI to be overlaid on the game. Feel free to use premade image assets
 downloaded from the public domain. The HUD should contain a set of information on each player, with player
 1’s information on the left hand side and player 2’s information on the right hand side, with the layout
