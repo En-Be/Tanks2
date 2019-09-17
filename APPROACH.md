@@ -65,3 +65,16 @@
 **Done**
 - Pass the HUD icon image from gamemanager
 - Change the icon colour when setting the tank material colour
+
+## Session  05
+
+**Tue Sep 17 13:30:09 - Tue Sep 17 14:04:35"
+
+**To do**
+- Redirect the health UI logic to update the HUD
+    - Pass the HUD to TankHealth
+    - Make new sliders in the HUD
+
+**Done**
+- Split the HUD into one each per player
+- Added health sliders to each HUD
