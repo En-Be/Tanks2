@@ -39,7 +39,7 @@
 
 ## Session 03
 
-**Tue Sep 17 11:55:29 - 
+**Tue Sep 17 11:55:29 - Tue Sep 17 12:48:51**
 
 **To do**
 - Create a HUDManager that
