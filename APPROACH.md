@@ -36,3 +36,19 @@
 - Added a HUD canvas set to resize with screen
 - Added flat images anchored in each corner, 20px away
 - Thinking of ways to change HUD colours based on tanks. Add a HUDManager?
+
+## Session 03
+
+**Tue Sep 17 11:55:29 - 
+
+**To do**
+- Create a HUDManager that
+    - finds the tanks
+    - copies their colours to the HUD
+    - makes HUD icons selectable
+    - turn off HUD unless both tanks present
+
+**Done**
+- Read through existing files, trying to figure out where to connect new files
+- Making a TankColour script and moving the colour setup logic over from the tank manager
+
