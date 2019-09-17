@@ -1,22 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TankColour : MonoBehaviour
 {
     public int m_PlayerNumber = 1;              // Used to identify which tank belongs to which player.  This is set by this tank's manager.
-    public Color m_PlayerColor;                             // This is the color this tank will be tinted.
+    // public Color m_PlayerColor;                 // This is the color this tank will be tinted.
+    public Image m_HUDIcon;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void Set(Color colour)
@@ -32,5 +27,12 @@ public class TankColour : MonoBehaviour
             // ... set their material color to the color specific to this tank.
             renderers[i].material.color = colour;
         }
+
+        SetColourUI(colour);
+    }
+
+    private void SetColourUI(Color colour)
+    {
+        m_HUDIcon.color = colour;
     }
 }

@@ -52,3 +52,16 @@
 - Read through existing files, trying to figure out where to connect new files
 - Making a TankColour script and moving the colour setup logic over from the tank manager
 
+##  Session 04
+
+**Tue Sep 17 12:57:10 - 
+
+**To do**
+- Make each tank find it's UI
+- Change the UI when state changes
+    - Icon colour
+    - Health bar
+
+**Done**
+- Pass the HUD icon image from gamemanager
+- Change the icon colour when setting the tank material colour
