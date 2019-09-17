@@ -102,3 +102,21 @@
 
 **Done**
 - Add a scrollbar with colour icons
+
+## Session 08
+
+**Tue Sep 17 17:39:59 - 
+
+**To do**
+- Plan the control flow from buttons to tanks
+
+**Done**
+- Stuck on a bug, any new script cannot have other script components dragged onto it.
+    - Tried making new scripts, assigning gameobjects then getting their script components
+    - Had to add
+
+    ```
+    namespace Complete {...}
+    ```
+    
+    around the class.

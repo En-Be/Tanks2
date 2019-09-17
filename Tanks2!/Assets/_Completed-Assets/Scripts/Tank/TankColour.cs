@@ -16,7 +16,7 @@ public class TankColour : MonoBehaviour
 
     public void Set(Color colour)
     {
-        Debug.Log(colour);
+        // Debug.Log(colour);
 
         // Get all of the renderers of the tank.
         MeshRenderer[] renderers = gameObject.GetComponentsInChildren<MeshRenderer> ();
