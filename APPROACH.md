@@ -105,7 +105,7 @@
 
 ## Session 08
 
-**Tue Sep 17 17:39:59 - 
+**Tue Sep 17 17:39:59 - Tue Sep 17 18:36:57**
 
 **To do**
 - Plan the control flow from buttons to tanks
@@ -118,5 +118,5 @@
     ```
     namespace Complete {...}
     ```
-    
+
     around the class.
