@@ -81,7 +81,7 @@
 
 ## Session 06
 
-** Tue Sep 17 14:12:44 - Tue Sep 17 14:40:51**
+**Tue Sep 17 14:12:44 - Tue Sep 17 14:40:51**
 
 **To Do**
 - Pass the HUD to tankHealth
@@ -92,3 +92,13 @@
 - Pass health value to slider
 - Adjusted the slider to be closer to instructions
 - Tested different colours
+
+## Session 07
+
+**Tue Sep 17 15:39:57 -Tue Sep 17 16:29:10**
+
+**To do**
+- Add a scrollbar with colour icons
+
+**Done**
+- Add a scrollbar with colour icons
