@@ -163,3 +163,16 @@
 - Refactored tank selection and colour change to work off an array instead of individuals and conditionals
 - Changed resizing settings to be constant
 - Changed animator controller flow
+
+## Session 12
+
+**Fri Sep 20 15:54:51 - Fri Sep 20 16:28:14**
+
+**To do**
+- Change message colours to match tanks
+- Test changing a white tank icon colour
+
+**Done**
+- Message colours changed with tank colours
+- Converted the tank fbx model for photographing in Blender
+- A white icon with the colour changed in Unity could work, just need a visually legible icon

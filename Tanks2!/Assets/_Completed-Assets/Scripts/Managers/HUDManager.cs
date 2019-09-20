@@ -24,7 +24,7 @@ namespace Complete
 
         public void SetTankColour(GameObject button)
         {
-        Players[SelectedTank].m_Colour.Set(button.GetComponent<Image>().color);
+        Players[SelectedTank].SetColour(button.GetComponent<Image>().color);
         }
     }
 }

@@ -46,23 +46,16 @@ namespace Complete
             m_Colour.m_HUDIcon = m_HUDIcon;
             m_Health.m_Slider = m_HUDSlider;
 
-            // Create a string using the correct color that says 'PLAYER 1' etc based on the tank's color and the player's number.
-            m_ColoredPlayerText = "<color=#" + ColorUtility.ToHtmlStringRGB(m_PlayerColor) + ">PLAYER " + m_PlayerNumber + "</color>";
-
-            m_Colour.Set(m_PlayerColor);
-/*
-            // Get all of the renderers of the tank.
-            MeshRenderer[] renderers = m_Instance.GetComponentsInChildren<MeshRenderer> ();
-
-            // Go through all the renderers...
-            for (int i = 0; i < renderers.Length; i++)
-            {
-                // ... set their material color to the color specific to this tank.
-                renderers[i].material.color = m_PlayerColor;
-            }
-            */
+            SetColour(m_PlayerColor);
         }
 
+        public void SetColour(Color colour)
+        {
+            m_PlayerColor = colour;
+            m_Colour.Set(colour);
+            // Create a string using the correct color that says 'PLAYER 1' etc based on the tank's color and the player's number.
+            m_ColoredPlayerText = "<color=#" + ColorUtility.ToHtmlStringRGB(m_PlayerColor) + ">PLAYER " + m_PlayerNumber + "</color>";
+        }
 
         // Used during the phases of the game where the player shouldn't be able to control their tank.
         public void DisableControl ()
