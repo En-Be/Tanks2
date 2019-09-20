@@ -15,7 +15,8 @@ namespace Complete
         public GameObject m_TankPrefab;             // Reference to the prefab the players will control.
         public TankManager[] m_Tanks;               // A collection of managers for enabling and disabling different aspects of the tanks.
 
-        
+        public HUDManager m_HUD;
+
         private int m_RoundNumber;                  // Which round the game is currently on.
         private WaitForSeconds m_StartWait;         // Used to have a delay whilst the round starts.
         private WaitForSeconds m_EndWait;           // Used to have a delay whilst the round or game ends.
@@ -30,6 +31,7 @@ namespace Complete
 
             SpawnAllTanks();
             SetCameraTargets();
+            SetTankHUDs();
 
             // Once the tanks have been created and the camera is using them as targets, start the game.
             StartCoroutine (GameLoop ());
@@ -66,6 +68,11 @@ namespace Complete
             m_CameraControl.m_Targets = targets;
         }
 
+        private void SetTankHUDs()
+        {
+            m_HUD.PlayerOne = m_Tanks[0];
+            m_HUD.PlayerTwo = m_Tanks[1];
+        }
 
         // This is called from start and will run each phase of the game one after another.
         private IEnumerator GameLoop ()

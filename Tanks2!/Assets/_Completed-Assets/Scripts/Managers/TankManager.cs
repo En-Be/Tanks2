@@ -25,7 +25,7 @@ namespace Complete
         private TankMovement m_Movement;                        // Reference to tank's movement script, used to disable and enable control.
         private TankShooting m_Shooting;                        // Reference to tank's shooting script, used to disable and enable control.
         private TankHealth m_Health;
-        private TankColour m_Colour;
+        [HideInInspector] public TankColour m_Colour;
         private GameObject m_CanvasGameObject;                  // Used to disable the world space UI during the Starting and Ending phases of each round.
 
 

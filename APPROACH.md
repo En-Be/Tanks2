@@ -132,3 +132,19 @@
 - Added button and animator components to the icons so they can be selected, and grow when they are
 - Accidentally scaled the colour icons and had to undo
 - Scaled content down
+
+## Session 10
+
+**Fri Sep 20 13:13:49 BST - Fri Sep 20 13:55:49**
+
+**To do**
+- Have icon/tank colours set by colour buttons
+
+**Done**
+- HUDManager has references to tanks
+- HUDManager has method to set which tank is active
+- Colour buttons couldn't find the set colour method, can't pass a colour
+    - Passing button object and then getting it's colour to pass instead
+    - Nothing happening
+    - Hadd forgotten to set OnClick
+- Colours changing but have to be set manually (long) for each button
