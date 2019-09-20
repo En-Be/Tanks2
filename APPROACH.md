@@ -146,5 +146,20 @@
 - Colour buttons couldn't find the set colour method, can't pass a colour
     - Passing button object and then getting it's colour to pass instead
     - Nothing happening
-    - Hadd forgotten to set OnClick
+    - Had forgotten to set OnClick
 - Colours changing but have to be set manually (long) for each button
+
+## Session 11
+
+**Fri Sep 20 15:18:19 - Fri Sep 20 15:43:45**
+
+**To do**
+- Refactor
+    - Tank selection
+    - Tank colour change
+    - Button colours setting
+
+**Done**
+- Refactored tank selection and colour change to work off an array instead of individuals and conditionals
+- Changed resizing settings to be constant
+- Changed animator controller flow

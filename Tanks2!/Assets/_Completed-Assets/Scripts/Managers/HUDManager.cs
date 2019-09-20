@@ -7,21 +7,15 @@ namespace Complete
 {
     public class HUDManager : MonoBehaviour
     {
-        public TankManager PlayerOne;
-        public TankManager PlayerTwo;
+        public TankManager[] Players;
         public int SelectedTank;
 
         // Start is called before the first frame update
         void Start()
         {
-
+            SelectedTank = 2;
         }
 
-        // Update is called once per frame
-        void Update()
-        {
-            
-        }
 
         public void SetSelectedTank(int tank)
         {
@@ -30,15 +24,7 @@ namespace Complete
 
         public void SetTankColour(GameObject button)
         {
-            if(SelectedTank == 1)
-            {
-                PlayerOne.m_Colour.Set(button.GetComponent<Image>().color);
-                Debug.Log(button.GetComponent<Image>().color);
-            }
-            else
-            {
-                PlayerTwo.m_Colour.Set(button.GetComponent<Image>().color);
-            }
+        Players[SelectedTank].m_Colour.Set(button.GetComponent<Image>().color);
         }
     }
 }

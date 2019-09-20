@@ -70,8 +70,7 @@ namespace Complete
 
         private void SetTankHUDs()
         {
-            m_HUD.PlayerOne = m_Tanks[0];
-            m_HUD.PlayerTwo = m_Tanks[1];
+            m_HUD.Players = m_Tanks;
         }
 
         // This is called from start and will run each phase of the game one after another.
