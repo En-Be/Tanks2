@@ -113,10 +113,22 @@
 **Done**
 - Stuck on a bug, any new script cannot have other script components dragged onto it.
     - Tried making new scripts, assigning gameobjects then getting their script components
-    - Had to add
+    - Had to add:
 
     ```
     namespace Complete {...}
     ```
 
     around the class.
+
+## Session 09
+
+**Fri Sep 20 12:25:41 - Fri Sep 20 12:50:28**
+
+**To do**
+- Make a selected player using their icon
+
+**Done**
+- Added button and animator components to the icons so they can be selected, and grow when they are
+- Accidentally scaled the colour icons and had to undo
+- Scaled content down
