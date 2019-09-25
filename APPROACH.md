@@ -176,3 +176,13 @@
 - Message colours changed with tank colours
 - Converted the tank fbx model for photographing in Blender
 - A white icon with the colour changed in Unity could work, just need a visually legible icon
+
+## Session 13
+
+**Wed Sep 25 14:48:10 - Wed Sep 25 15:13:55**
+
+**To do**
+- Make/find a small tank icon
+
+**Done**
+- Edited a small tank icon. It's a bit crunchy, I don't know if it would look better on other screens.
