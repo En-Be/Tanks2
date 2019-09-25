@@ -186,3 +186,20 @@
 
 **Done**
 - Edited a small tank icon. It's a bit crunchy, I don't know if it would look better on other screens.
+
+## Session 14
+
+**Wed Sep 25 15:23:32 - Wed Sep 25 16:28:13**
+
+**To Do**
+- Edit icon animation sizes
+- Health bar shake animation
+- Colour picker instancer
+
+**Done**
+- Added a ColourIcon script, made it serializable, and made a list of them in the HUDManager
+- Removed the Monobehaviour parent class to make it actually serializable
+- Made a prefab of a colour button and added it to the script as a gameobject to instantiate
+- HUDManager iterates through list of icons, instantiates them as children of HUD, and calls their Setup method
+- Added image to change the colour of, but because it is a prefab the onclick is no longer set
+    - Added an onclick listener to the script that calls the HUDManager SetTankColour method
