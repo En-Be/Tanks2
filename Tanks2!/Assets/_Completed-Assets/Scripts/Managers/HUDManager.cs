@@ -26,6 +26,7 @@ namespace Complete
         {
             for (int i = 0; i < Colours.Length; i++)
             {
+                Colours[i].HUDM = this;
                 Colours[i].m_Instance = Instantiate(ColourIconButton) as GameObject;
                 Colours[i].m_Instance.transform.SetParent(IconsHolder.transform);
                 Colours[i].Setup();

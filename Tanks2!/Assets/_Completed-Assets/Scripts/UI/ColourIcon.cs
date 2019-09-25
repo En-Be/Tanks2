@@ -16,7 +16,6 @@ namespace Complete
 
         public void Setup()
         {
-            HUDM = m_Instance.gameObject.GetComponentInParent<HUDManager>();
             Icon = m_Instance.gameObject.GetComponent<Image>();
             button = m_Instance.gameObject.GetComponent<Button>();
 

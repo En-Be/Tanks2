@@ -203,3 +203,18 @@
 - HUDManager iterates through list of icons, instantiates them as children of HUD, and calls their Setup method
 - Added image to change the colour of, but because it is a prefab the onclick is no longer set
     - Added an onclick listener to the script that calls the HUDManager SetTankColour method
+
+## Session 15
+
+**Wed Sep 25 16:46:35 - Wed Sep 25 17:50:52**
+
+**To do**
+- Slight refactor
+- Edit icon animations
+- Health bar shake animation
+
+**Done**
+- Assigned HUDM in ColourIcon at instantiation instead of finding component in parent
+- Tried flipping the icon for mirroring but might have to have two images, or a flipped child, or a an animation seperate from the original
+- Drew a new icon
+
