@@ -4,6 +4,8 @@
 
 **Made with Unity version 2019.2.0f1**
 
+**Blender, Krita and Vectr.com used for icon design.**
+
 Please read the [approach file](./APPROACH.md) for details of the process.
 
 ![wip002](wip/wip002.png)
