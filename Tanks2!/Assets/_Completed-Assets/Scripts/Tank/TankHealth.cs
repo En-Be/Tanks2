@@ -11,6 +11,7 @@ namespace Complete
         public Color m_FullHealthColor = Color.green;       // The color the health bar will be when on full health.
         public Color m_ZeroHealthColor = Color.red;         // The color the health bar will be when on no health.
         public GameObject m_ExplosionPrefab;                // A prefab that will be instantiated in Awake, then used whenever the tank dies.
+        public Animator m_anim;
         
         
         private AudioSource m_ExplosionAudio;               // The audio source to play when the tank explodes.
@@ -47,6 +48,7 @@ namespace Complete
         {
             // Reduce current health by the amount of damage done.
             m_CurrentHealth -= amount;
+            m_anim.SetTrigger("Hit");
 
             // Change the UI elements appropriately.
             SetHealthUI ();
@@ -63,9 +65,6 @@ namespace Complete
         {
             // Set the slider's value appropriately.
             m_Slider.value = m_CurrentHealth;
-
-            // Interpolate the color of the bar between the choosen colours based on the current percentage of the starting health.
-            // m_FillImage.color = Color.Lerp (m_ZeroHealthColor, m_FullHealthColor, m_CurrentHealth / m_StartingHealth);
         }
 
 

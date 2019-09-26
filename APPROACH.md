@@ -232,3 +232,24 @@
 - Added numbers
 - Exported pngs
 - Edited lines in Krita
+
+## Session 17
+
+**Thu Sep 26 15:28:22 - Thu Sep 26 16:12:01**
+
+**To do**
+- Add icons into scene
+- Health shake animation
+
+**Done**
+- Added the icons, resized them
+- Resized the scrollbar, arrows and colour icons
+- Made the scrollbar transparent
+- Added the rest of the icons and right side padding
+- Created animation controller
+- Created shake animation to be triggered by 'hit' parameter
+- Added animator to health bars
+- Edited shake animations specific to left and right
+- Assigned the animator on each health script
+- Triggered the Hit parameter by script
+- Edited the animator for nicer triggering

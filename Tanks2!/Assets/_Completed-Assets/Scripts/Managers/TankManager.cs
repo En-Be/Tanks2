@@ -16,6 +16,7 @@ namespace Complete
         public Transform m_SpawnPoint;                          // The position and direction the tank will have when it spawns.
         public Image m_HUDIcon;
         public Slider m_HUDSlider;
+        public Animator m_anim;
         [HideInInspector] public int m_PlayerNumber;            // This specifies which player this the manager for.
         [HideInInspector] public string m_ColoredPlayerText;    // A string that represents the player with their number colored to match their tank.
         [HideInInspector] public GameObject m_Instance;         // A reference to the instance of the tank when it is created.
@@ -45,6 +46,7 @@ namespace Complete
 
             m_Colour.m_HUDIcon = m_HUDIcon;
             m_Health.m_Slider = m_HUDSlider;
+            m_Health.m_anim = m_anim;
 
             SetColour(m_PlayerColor);
         }
