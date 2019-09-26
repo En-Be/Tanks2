@@ -2,9 +2,23 @@
 
 # Technical Art
 
-The original document detailing this exercise is included [here](./MediatonicTAExercise).
-
 **Made with Unity version 2019.2.0f1**
+
+Please read the [approach file](./APPROACH.md) for details of the process.
+
+![wip002](wip/wip002.png)
+
+## Colour changing:
+
+![colourchange](wip/colour.gif)
+
+## Health bar and titles:
+
+![health](wip/health.gif)
+
+---
+
+The original document detailing this exercise is included [here](./MediatonicTAExercise).
 
 ## Essential Information
 ● In an alternate dimension, Mediatonic Ltd. are working on a super awesome game called Tanks2! It has been adapted from a game (not by Mediatonic) originally presented as part of a tutorial at Unity Boston 2015.

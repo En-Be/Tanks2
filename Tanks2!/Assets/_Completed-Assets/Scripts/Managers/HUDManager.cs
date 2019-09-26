@@ -10,6 +10,7 @@ namespace Complete
     {
         public TankManager[] Players;
         public int SelectedTank;
+        public Animator[] PlayerIcons;
 
         public GameObject IconsHolder;
         public GameObject ColourIconButton;
@@ -36,6 +37,7 @@ namespace Complete
         public void SetSelectedTank(int tank)
         {
             SelectedTank = tank;
+            PlayerIcons[tank].SetTrigger("Selected");
         }
 
         public void SetTankColour(Color button)

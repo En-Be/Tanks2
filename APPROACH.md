@@ -253,3 +253,25 @@
 - Assigned the animator on each health script
 - Triggered the Hit parameter by script
 - Edited the animator for nicer triggering
+
+## Session 18
+
+**Thu Sep 26 16:19:53 - Thu Sep 26 17:30:16**
+
+**To do**
+- Test icons  without borders
+- Mockup with alt icon
+
+**Done**
+- Tried without borders, no more legible
+- Tried with thicker borders, better but not perfect
+
+![wip001](wip/wip001.png)
+
+- Returned to using the shaded icons
+
+![wip002](wip/wip002.png)
+
+- Edited animators to be individual per icon
+- Edited animation controllers to trigger manually
+- Adding gifs to readme
