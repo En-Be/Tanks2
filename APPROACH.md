@@ -218,3 +218,17 @@
 - Tried flipping the icon for mirroring but might have to have two images, or a flipped child, or a an animation seperate from the original
 - Drew a new icon
 
+## Session 16
+
+**Thu Sep 26 14:57:36 - Thu Sep 26 15:24:18**
+
+**To do**
+- Finish icons
+- Health shake animation
+
+**Done**
+- Signed up to Vectr so I can save the working file
+- Remade the icon
+- Added numbers
+- Exported pngs
+- Edited lines in Krita
