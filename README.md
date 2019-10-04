@@ -2,6 +2,10 @@
 
 # Technical Art
 
+## Instructions
+
+**Clone this repo, then in the editor open Assets/Completed-Assets/Scenes/Main.unity, and run the scene to play.**
+
 **Made with Unity version 2019.2.0f1**
 
 **Blender, Krita and Vectr.com used for icon design.**
