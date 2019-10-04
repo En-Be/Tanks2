@@ -68,7 +68,7 @@
 
 ## Session 05
 
-**Tue Sep 17 13:30:09 - Tue Sep 17 14:04:35"
+**Tue Sep 17 13:30:09 - Tue Sep 17 14:04:35**
 
 **To do**
 - Redirect the health UI logic to update the HUD
